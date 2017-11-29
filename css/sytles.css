@@ -1,0 +1,17 @@
+.hero {
+  height: 100%;
+}
+
+.hero-text{
+  height: 100%;
+  margin: 0;
+}
+
+.hero-text .card-body{
+  background-color: #FFA67A;
+  padding: 10px;
+}
+
+.hero div{
+  padding: 0;
+}
