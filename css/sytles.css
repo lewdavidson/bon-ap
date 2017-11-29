@@ -1,3 +1,16 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .hero {
   height: 100%;
 }
@@ -14,4 +27,51 @@
 
 .hero div{
   padding: 0;
+}
+
+.section1{
+  background-color: #FFA67A;
+}
+
+.section2{
+  background-color: #F5DD90;
+}
+
+.section3{
+  background-color: #473144;
+  color: #F4F1DE;
+}
+
+.bg-dark{
+  background-color: #000 !important;
+  margin-bottom: 5vh;
+}
+
+#logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  margin-left: 30vw;
+}
+.sm-nav {
+  float: right;
+  margin-right: 3vw;
+  margin-top: 2%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.navbar{
+  display: block;
+}
+
+@media screen and (max-width: 600px){
+  .hero img{
+    height: 50vh;
+  }
+  .hero-text{
+    height: 50vh;
+  }
+
+  .sm-nav{
+    display: none;
+  }
 }
